@@ -1,0 +1,12 @@
+<div id="form-calcule-number">
+    <app-label
+        [title]="title"
+    ></app-label>
+    <app-input
+        (numberEvent)="eventChange($event)"
+    > </app-input>
+    <app-button
+        [title]="titleButton"
+        (add)="calculePrimoDivisor()"
+    ></app-button>
+</div>

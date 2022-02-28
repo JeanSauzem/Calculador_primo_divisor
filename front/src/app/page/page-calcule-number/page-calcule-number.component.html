@@ -1,0 +1,23 @@
+
+<div>
+    <app-organism-calcule-number
+        [title]="title"
+        [titleButton]="titleButton"
+        (numberEvent)="number($event)"
+        (add)="calculePrimoDivisor()"
+    ></app-organism-calcule-number>
+</div>
+<div class="list-content">
+    <div class="content-card">
+        <app-organism-list-number
+            [title]="titlePrimo"
+            [numbers]="numbersPrimo"
+        ></app-organism-list-number>
+    </div>
+    <div class="content-card ">
+        <app-organism-list-number
+            [title]="titleDivisor"
+            [numbers]="numbersDivisor"
+        ></app-organism-list-number>
+    </div>
+</div>

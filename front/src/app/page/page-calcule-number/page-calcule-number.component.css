@@ -1,0 +1,10 @@
+.list-content {
+    display: flex; 
+    width: 98%; 
+    justify-items: center;
+}
+.content-card {
+    width: 50%;
+    border: 2px solid rgb(0, 255, 94);
+    border-radius: 20px;
+}
